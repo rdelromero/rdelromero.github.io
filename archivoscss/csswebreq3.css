@@ -1,0 +1,264 @@
+/*REQUERIMIENTO 3*/
+
+
+/*TABLET HORIZONTAL*/
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* Encabezado */
+    #encabezadoprincipal {
+    height: 80px;
+    }
+    
+    .classencabezado a.logo {
+    font-size: 30px;
+    }
+    
+    .classencabezado a.sesion {
+    font-size: 20px;
+    }
+    
+    /* Navegación */
+    nav {
+    height: 30px;
+    }
+    
+    /* Section */
+    section {
+    height: 400px;
+    width: 600px;
+    }
+    
+    /* Artículo izquierdo */
+    header#hx1 {
+    font-size: 25px;
+    }
+    
+    article#art1 {
+    font-size: 16px;
+    }
+    
+    footer#enlc1 {
+    font-size: 25px;
+    }
+    
+    /* Sorteo a la derecha */
+    div#formular {
+    margin-top: 50px;
+    margin-left: 200px;
+    }
+    
+    /* Fotos del sorteo */
+    img#g19,
+    img#g3,
+    img#m41 {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    }
+    
+    h3#sort1 {
+    font-size: 20px;
+    }
+    
+    /* Caja de texto para contactar con soporte */
+    p#soportecontacto {
+    font-size: 18px;
+    }
+    }
+
+
+/*TABLET VERTICAL*/
+
+
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    /*Cambiar altura del encabezado*/
+    #encabezadoprincipal {
+    height: 80px;
+    }
+    
+    /*Cambiar tamaño de fuente y alinear logo y inicio de sesión*/
+    .classencabezado {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .classencabezado a.logo {
+    font-size: 25px;
+    margin-bottom: 5px;
+    }
+    
+    .classencabezado a.sesion {
+    font-size: 20px;
+    }
+    
+    /*Alinear enlaces de la cabecera*/
+    .enlacecentro, .enlacederecha {
+    position: static;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    }
+    
+    /*Cambiar tamaño y posición de las secciones*/
+    section {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    }
+    
+    /*Cambiar tamaño de las imágenes del sorteo*/
+    div#fotossortv img {
+    width: 33%;
+    height: auto;
+    margin: 5px;
+    }
+    
+    /*Cambiar tamaño del formulario de sorteo*/
+    div#formular {
+    width: 90%;
+    margin: 10px auto;
+    }
+    
+    /*Cambiar tamaño de la caja de texto para contactar con soporte*/
+    p#soportecontacto {
+    font-size: 16px;
+    }
+    }
+
+
+/*MOVIL HORIZONTAL*/
+
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    /* Estilos CSS para pantalla horizontal de teléfono /
+    / Encabezado principal */
+    #encabezadoprincipal {
+    height: 80px;
+    }
+    
+    /* Título "AIRSOFT HOME" */
+    .classencabezado a.logo {
+    font-size: 25px;
+    }
+    
+    /* Botón de inicio de sesión */
+    .classencabezado a.sesion {
+    font-size: 18px;
+    }
+    
+    /* Barra en movimiento */
+    #encabezadoprincipal marquee {
+    font-size: 14px;
+    height: 20px;
+    margin-top: 5px;
+    }
+    
+    /* Configuración general para los section */
+    section {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    float: none;
+    border: none;
+    }
+    
+    /* Header del cuerpo a la izquierda de la página */
+    header#hx1 {
+    font-size: 20px;
+    }
+    
+    /* Fotos de las armas */
+    img#g19,
+    img#g3,
+    img#m41 {
+    width: 30%;
+    height: auto;
+    margin: 5px;
+    }
+    
+    /* Texto "Armas a sortear" */
+    h3#sort1 {
+    font-size: 18px;
+    }
+    
+    /* Caja de texto para contactar con soporte */
+    p#soportecontacto {
+    font-size: 16px;
+    }
+    /*Cambio en barra de navegación*/
+nav {
+    border: solid black;
+    background-color:blue;
+    height: 150px;
+}
+div#formular {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    }
+    }
+
+
+
+/*MOVIL VERTICAL*/
+
+@media only screen and (max-width: 480px) {
+    /* Estilos para pantallas con un ancho máximo de 480px (teléfono en modo vertical) */
+    
+    /* Cambiar el ancho de los section a 100% */
+    section {
+    width: 100%;
+    float: none;
+    height: auto;
+    }
+    
+    /* Cambiar el ancho de las imágenes de las armas */
+    img#g19, img#g3, img#m41 {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    }
+    
+    /* Alinear el botón de inicio de sesión a la izquierda */
+    .classencabezado a.sesion {
+    position: absolute;
+    left: 0;
+    }
+    
+    /* Alinear el logo y el botón de inicio de sesión al centro */
+    .classencabezado {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    /* Cambiar la fuente y el tamaño del título "AIRSOFT HOME" */
+    .classencabezado a.logo {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    }
+    
+    /* Cambiar el ancho del formulario de sorteo y ajustar su margen */
+    div#formular {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    }
+    
+    /* Alinear el texto de contacto con el soporte al centro */
+    p#soportecontacto {
+    text-align: center;
+    }
+   
+    /*Cambio en barra de navegación*/
+nav {
+    border: solid black;
+    background-color:blue;
+    height: 270px;
+}
+    }

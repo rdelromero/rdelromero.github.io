@@ -1,0 +1,280 @@
+/*LOS COMENTARIOS SON ASÍ */
+
+#encabezadoprincipal{
+    border: 1px solid blue;
+    height:100px;
+    background-image: url(../img/bsq.jpg);
+    position: relative;
+}
+
+.classencabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.classencabezado a.logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.classencabezado a.sesion {
+    color: rgb(0, 255, 0);
+}
+
+.enlacecentro{
+    text-align: center;
+}
+
+.enlacederecha{
+    position: absolute;
+    right:0;
+}
+
+#encabezadoprincipal marquee{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18;
+    background-image: url(../img/cssback.jpg);
+    background-position: right;
+    height:30px;
+    margin-top:10px;
+}
+
+nav {
+    border: solid black;
+    background-color:blue;
+    height: 40px;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+section{
+    margin-top: 10px;
+    border: 1px solid seagreen;
+    float:left;
+    height:550px;
+    width: 750px;
+}
+
+header#hx1 {
+    border: 2px solid black;
+    background-color: bisque;
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article#art1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+footer#enlc1 {
+    color: #c91010;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    background-image: url(../img/winter.jpg);
+}
+
+footer {
+    border: 1px solid fuchsia;
+    clear:left;
+}
+
+h3#rs { color: rgb(241, 0, 0); text-align: center;}
+
+/* con esto pillamos solo el q qeremo*/
+
+h3#test1 {color: #c91010; 
+text-align: center;
+background-color: aquamarine;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div#xd1 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+}
+
+div#botonera {
+ width: 100%;
+    /*--display: flex;*/
+}
+
+
+
+div#boton1 {
+    display: inline-block;
+    justify-content: center;
+    margin-left:30px; margin-top:10px;
+    padding: 50px 100px;
+    font-size: 25px;
+    background-image: url(../img/g3a1.jpg);
+    width: 100px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #000000;
+}
+
+div#boton2 {
+    display: inline-block;
+    justify-content: center;
+    margin-left:30px; margin-top:10px;
+    padding: 50px 100px;
+    font-size: 25px;
+    background-image: url(../img/g18.jpg);
+    width: 100px;
+    height: 50px;
+    background-position: center;
+     background-size: cover;
+       border: 3px solid #000000;
+}
+div#boton3 {
+    display: inline-block;
+    justify-content: center;
+    margin-left:30px; margin-top:10px;
+    padding: 50px 100px;
+    font-size: 25px;
+    background-image: url(../img/shtg.jpg);
+    background-size: cover;
+     width: 100px;
+    height: 50px;
+    background-position: center;
+    border: 3px solid #000000;
+}
+div#boton4 {
+    display: inline-block;
+    justify-content: center;
+    margin-left:30px; margin-top:10px;
+    padding: 50px 100px;
+    font-size: 25px;
+    background-image: url(../img/ts.jpg);
+     width: 100px;
+    height: 50px;
+    background-position: center;
+     background-size: cover;
+     border: 3px solid #000000;
+}
+div#boton5 {
+    display: inline-block;
+    justify-content: center;
+    margin-left:30px; margin-top:10px;
+    padding: 50px 100px;
+    font-size: 25px;
+    background-image: url(../img/casco.jpg);
+     width: 100px;
+    height: 50px;
+    background-position: center;
+     background-size: cover;
+     border: 3px solid #000000; 
+}
+
+.con
+
+div#formular {
+  
+    position: absolute;
+width: 400px;
+
+margin-top: 100px;
+margin-left: 1480px;
+background-image: url(img/bckg1.jpg);
+
+   
+  
+   /* nose q coño e tocao pero queda bien*/
+}
+
+div#ticketsop {
+
+    position: absolute;
+    padding: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+    
+    
+}
+
+div#sleft {
+    display: block;
+ padding: 5px;
+ width: 700px;
+ height: 600px;
+ margin-left: 20px;
+ margin-top: 30px;
+ border: 3px solid black;
+ 
+}
+
+
+
+
+
+
+
+div#bloque1 {
+    display: flex;
+}
+
+div#fotossortv {
+    display: inline-flex;
+   
+ 
+}
+img#g19 { 
+
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    justify-content: center;
+}
+
+img#g3 { 
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    justify-content: center;
+ }
+
+img#m41  {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    justify-content: center;    
+}
+
+h3#sort1 {
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    
+}
+
+footer#qunsomo {
+
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    margin-top: 550px;
+    text-align: center;
+   margin-left: 50%;
+    background-color: rgb(15, 215, 215);
+}   

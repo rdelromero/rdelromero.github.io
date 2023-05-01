@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+#divdelistadesordenada {
+    margin:-12px;
+    /*padding:0;*/
+}
+
+/*Características comunes a todos los <ul> que dependen de ul1*/
+.ul1 ul {
+    list-style:none
+}
+
+/*Caract. comunes a todos los <li> que dependen de ul1*/
+.ul1 li{
+    background-color: blue;
+    font-size: 18px;
+    width:200px;
+}
+
+/*Caract. comunes a todos los <a> que dependen de ul1*/
+.ul1 a {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+}
+
+/*Caract. comunes a los li dque dependen directamente de ul1*/
+.ul1 > li {
+    float:left;
+    text-align: center;
+}
+
+/*Al pasar por encima de un <a> este se oscurece*/
+.ul1 a:hover {
+    background-color:#434343;
+}
+
+.ul1 ul {
+    display: none;
+    /*Comentar lo de absolute*/
+    position: absolute;
+    min-width: 140px;
+}
+
+/*Desplegable adimitido solo para aquellos ul que dependen directamente de li de listadesordenada1*/
+.ul1 li:hover > ul {
+    display: block;
+}
+
+/*Caract. comunes a los li dque dependen directamente de ul2*/
+.ul1 li ul li{
+    position: relative;
+    text-align: left;
+}
+
+/*ul3 deja a su izquierda al li del que parte*/
+.ul1 li ul li ul{
+    left: 160px;
+    top: 0px;
+}

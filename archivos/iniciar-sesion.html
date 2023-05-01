@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Noticias</title>
+    <link rel= "stylesheet" href="cssweb.css">
+    <link rel= "stylesheet" href="barranavegacion.css">
+    <link rel="stylesheet" href="iniciarsesion.css"/>
+</head>
+
+<body>
+    <header id="encabezadoprincipal">
+        <br>
+        <div class="classencabezado">
+            <div><a href="paginaweb.html" class="logo">AIRSOFT HOME</a></div>
+            <div class="enlacederecha"><a href="iniciar-sesion.html" class="sesion">Iniciar sesión</a></div>
+        </div>
+        <marquee>¡Hasta el 35% de descuento en mayo!</marquee>
+    </header>
+
+<nav>
+    <div id="divdelistadesordenada">
+        <ul class="ul1">
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="campos-de-tiro.html">Campos de tiro</a></li>
+            <li><a href="equipamiento-y-armas.html">Equipamiento y armas</a></li>
+            <li><a href="taller.html">Taller</a></li>
+            <li><a href="nuestros-productos.html">Nuestros productos</a>     
+                <ul>
+                    <li><a href="">Armas</a>
+                        <ul>
+                            <li><a href="../MI CARPETA VSC/fusiles.html">Fusiles</a></li>
+                            <li><a href="../MI CARPETA VSC/pistolas.html">Pistolas</a></li>
+                            <li><a href="../MI CARPETA VSC/escopetas.html">Escopetas</a></li>
+                            <li><a href="../MI CARPETA VSC/tselecto.html">Tirador selecto</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Munición y recarga</a></li>
+                    <li><a href="">Accesorios</a></li>
+                    <li><a href="../MI CARPETA VSC/tgear.html">Equipamiento</a>
+                    <li><a href="">Internos</a></li>
+                    <li><a href="">HPA</a></li>
+                </ul>
+            </li>
+            <li><a href="localizacion.html">Localización</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section id="sectiondeiniciarsesion">
+    <br>
+    <form action="procesarpeticion.jsp" method="post">
+        <!--En el input también podríamos poner un value="valor por defecto"-->
+        <!--El "required del final es necesario para impedir iniciar sesión si no se ha facilitado el dato"-->
+        <label for="correoedeiniciosesion">Correo electrónico:</label>
+        <input type="email" id="correoedeiniciosesion" name="correo" required>
+        <br><br>
+        <label for="contraseñadeiniciosesion">Contraseña:</label>
+        <input type="password" id="contraseñadeiniciosesion" name="password" required>
+        <br><br>
+        <button type="submit">Iniciar sesión</button>
+    </form>
+    <br><br>
+    ¿No tiene cuenta? Regístrese:<br><br>
+    <form action="procesarpeticion.jsp" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellido" style="width: 250px" required>
+        <br><br>
+        <label for="correoederegistro">Correo electrónico:</label>
+        <input type="email" id="correoederegistro" name="correo" style="width: 250px" required>
+        <br><br>
+        <label for="contraseñaregistro">Contraseña:</label>
+        <input type="password" id="contraseñaregistro" name="contrasena" pattern=".{8,}" title="La contraseña debe tener al menos 8 caracteres">
+        <label for="confirmarcontraseña">Confirmar contraseña:</label>
+        <input type="password" id="confirmarcontraseña" name="confirm-password" required>
+        <br><br>
+        <label for="provincia">Provincia:</label>
+        <select name="provincia">
+            <option value="Alava">Álava</option>
+            <option value="Albacete">Albacete</option>
+            <option value="Alicante">Alicante</option>
+            <option value="Almeria">Álmería</option>
+            <option value="Avila">Ávila</option>
+            <option value="Barcelona">Barcelona</option>
+        </select>
+        <br><br>
+        <label>
+            <input type="checkbox" name="aceptar-terminos" required> Acepto los términos y condiciones
+        </label>
+        <br>
+        <button id="buttonderegistro" type="submit">Registrarse</button>
+        <button id="buttondelimpiar" type="reset">Limpiar formulario</button>
+  </form>
+
+</section>
+
+<footer>
+    <a href="avisolegal.html">Aviso legal</a>
+    <a href="contacto.html">Contacto</a><br>
+    © 2023 AIRSOFT HOME
+</footer>
+
+</body>

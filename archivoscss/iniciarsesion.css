@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+#sectiondeiniciarsesion{
+    padding-left:20px;
+}
+
+#buttonderegistro {
+    height: 30px;
+    width: 100px;
+    margin: 20px;
+}
+#buttondelimpiar {
+    height: 20px;
+}

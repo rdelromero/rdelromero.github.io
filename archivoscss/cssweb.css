@@ -59,8 +59,17 @@ section{
     margin-top: 10px;
     border: 1px solid seagreen;
     float:left;
-    height:550px;
+
     width: 750px;
+}
+
+aside{
+    margin-top: 10px;
+    border: 1px solid seagreen;
+
+    width: 650px;
+    padding-left:20px;
+    float:left;
 }
 
 header#hx1 {
@@ -91,6 +100,12 @@ footer#enlc1 {
 footer {
     border: 1px solid fuchsia;
     clear:left;
+}
+
+figure {
+    border: solid black;
+    scale:70%;
+    text-align: center;
 }
 
 h3#rs { color: rgb(241, 0, 0); text-align: center;}

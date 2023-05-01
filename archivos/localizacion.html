@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>https://www.airsofthome.com</title>
+    <!--Título de la pagina webLe damos apariencia de página web--> 
+    <title>AIRSOFT HOME</title>
 </head>
 <!-- UNION CON EL ARCHIVO CSS-->
-<link rel= "stylesheet" href="cssweb.css">
-<link rel= "stylesheet" href="barranavegacion.css">
+<link rel= "stylesheet" href="../archivoscss/cssweb.css">
+<link rel= "stylesheet" href="../archivoscss/barranavegacion.css">
 
 <body>
+    <!--Header común a todos nuestros .html-->
     <header id="encabezadoprincipal">
         <br>
         <div class="classencabezado">
-            <div><a href="paginaweb.html" class="logo">AIRSOFT HOME</a></div>
+            <!--Redirección para iniciar sesión-->
+            <div><a href="../index.html" class="logo">AIRSOFT HOME</a></div>
             <div class="enlacederecha"><a href="iniciar-sesion.html" class="sesion">Iniciar sesión</a></div>
         </div>
+        <!--Banner en movimiento-->
         <marquee>¡Hasta el 35% de descuento en mayo!</marquee>
     </header>
 
+    <!--Nav común a todos nuestros .html-->
     <nav>
         <div id="divdelistadesordenada">
+            <!--ul que consta de 7 li-->
             <ul class="ul1">
                 <li><a href="noticias.html">Noticias</a></li>
                 <li><a href="campos-de-tiro.html">Campos de tiro</a></li>
@@ -29,22 +35,31 @@
                 <li><a href="taller.html">Taller</a></li>
                 <li><a href="nuestros-productos.html">Nuestros productos</a>     
                     <ul>
+                        <!--Botón desplegable dentro de "ARMAS" que nos lleva a las páginas de compra-->
                         <li><a href="">Armas</a>
                             <ul>
-                                <li><a href="../MI CARPETA VSC/fusiles.html">Fusiles</a></li>
-                                <li><a href="../MI CARPETA VSC/pistolas.html">Pistolas</a></li>
-                                <li><a href="../MI CARPETA VSC/escopetas.html">Escopetas</a></li>
-                                <li><a href="../MI CARPETA VSC/tselecto.html">Tirador selecto</a></li>
+                                <li><a href="fusiles.html">Fusiles</a></li>
+                                <li><a href="pistolas.html">Pistolas</a></li>
+                                <li><a href="escopetas.html">Escopetas</a></li>
+                                <li><a href="tselecto.html">Tirador selecto</a></li>
                             </ul>
                         </li>
+                        <!--El mismo botón desplegable, pero solo hay un link funcional, el de equipamiento-->
                         <li><a href="">Munición y recarga</a></li>
-                        <li><a href="">Accesorios</a></li>
-                        <li><a href="../MI CARPETA VSC/tgear.html">Equipamiento</a>
+                        <li><a href="">Accesorios</a>
+                            <ul>
+                                <li><a href="#">Bolas</a></li>
+                                <li><a href="#">Baterías</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="tgear.html">Equipamiento</a>
                         <li><a href="">Internos</a></li>
                         <li><a href="">HPA</a></li>
                     </ul>
                 </li>
+                <!--Link a la localización ficticia de la tienda-->
                 <li><a href="localizacion.html">Localización</a></li>
+                <!--Link al enlace de contacto-->
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </div>

@@ -33,21 +33,11 @@
     text-align: center;
 }
 
-/*Al pasar por encima de un <a> este se oscurece*/
-.ul1 a:hover {
-    background-color:#434343;
-}
-
 .ul1 ul {
     display: none;
     /*Comentar lo de absolute*/
     position: absolute;
     min-width: 140px;
-}
-
-/*Desplegable adimitido solo para aquellos ul que dependen directamente de li de listadesordenada1*/
-.ul1 li:hover > ul {
-    display: block;
 }
 
 /*Caract. comunes a los li dque dependen directamente de ul2*/
@@ -60,4 +50,13 @@
 .ul1 li ul li ul{
     left: 160px;
     top: 0px;
+}
+/*------------Instrucciones que hacen desaparecer o aparecer <ul>----------------*/
+/*Al pasar por encima de un <a> este se oscurece*/
+.ul1 a:hover {
+    background-color:#434343;
+}
+/*Desplegable adimitido solo para aquellos ul que dependen directamente de li de listadesordenada1*/
+.ul1 li:hover > ul {
+    display: block;
 }

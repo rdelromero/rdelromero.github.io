@@ -5,7 +5,7 @@
 
 marquee#discount { color: #000000; background-color:rgb(201, 201, 201); 
     font-family: 'Times New Roman', Times, serif; font-weight: 100;
-    background-image: url(img/cssback.jpg);
+    background-image: url(../img/cssback.jpg);
     background-position: right;
     
 }
@@ -13,7 +13,7 @@ marquee#discount { color: #000000; background-color:rgb(201, 201, 201);
 header#hed1 { font-family: 'Times New Roman', Times, serif; font-size: 100; color: rgb(0, 255, 0); font-weight: bold;
 }
 
-div#cabez1 {background-image: url(img/bsq.jpg);}
+div#cabez1 {background-image: url(../img/bsq.jpg);}
 
 div#nav {width: 1200px; height: 100px;}
 
@@ -32,7 +32,7 @@ div#leftpart {
    border: 3px solid black;
    align-self: center;
    margin: 60px;
-   background-image: url(img/bsq.jpg);
+   background-image: url(../img/bsq.jpg);
    
 }
 
@@ -43,7 +43,7 @@ div#rightpart {
     border: 3px solid black;
     align-self: center;
     margin: 60px;
-    background-image: url(img/bsq.jpg);
+    background-image: url(../img/bsq.jpg);
 }
 
 div#container1 {
@@ -60,7 +60,7 @@ div#leftpart1 {
    border: 3px solid black;
    align-self: center;
    margin: 60px;
-   background-image: url(img/bsq.jpg);
+   background-image: url(../img/bsq.jpg);
 }
 
 div#rightpart1 {
@@ -70,7 +70,7 @@ div#rightpart1 {
     border: 3px solid black;
     align-self: center;
     margin: 60px;
-    background-image: url(img/bsq.jpg);
+    background-image: url(../img/bsq.jpg);
     
 }
 
